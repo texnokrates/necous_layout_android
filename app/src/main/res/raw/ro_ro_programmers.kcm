@@ -1,0 +1,96 @@
+# Copyright (C) 2010 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Key character map for a built-in generic virtual keyboard primarily used
+# for instrumentation and testing purposes.
+#
+type OVERLAY
+
+### Basic QWERTY keys ###
+key A {
+    label:                              'A'
+    base:                               'a'
+    shift, capslock:                    'A'
+    ralt:                               '\u0103'
+    ralt+shift, capslock+ralt:          '\u0102'
+}
+key C {
+    label:                              'C'
+    base:                               'c'
+    shift, capslock:                    'C'
+    alt:                                '\u00e7'
+    shift+alt:                          '\u00c7'
+    ralt:                               '\u00A9'
+}
+key E {
+    label:                              'E'
+    base:                               'e'
+    shift, capslock:                    'E'
+    alt:                                '\u0301'
+    ralt:                               '\u20AC'
+}
+key I {
+    label:                              'I'
+    base:                               'i'
+    shift, capslock:                    'I'
+    alt:                                '\u0302'
+    ralt:                               '\u00EE'
+    ralt+shift, capslock+ralt:          '\u00CE'
+}
+key Q {
+    label:                              'Q'
+    base:                               'q'
+    shift, capslock:                    'Q'
+    ralt:                               '\u00E2'
+    ralt+shift, capslock+ralt:          '\u00C2'
+}
+key S {
+    label:                              'S'
+    base:                               's'
+    shift, capslock:                    'S'
+    alt:                                '\u00df'
+    ralt:                               '\u0219'
+    ralt+shift, capslock+ralt:          '\u0218'
+}
+key T {
+    label:                              'T'
+    base:                               't'
+    shift, capslock:                    'T'
+    ralt:                               '\u021B'
+    ralt+shift, capslock+ralt:          '\u021A'
+}
+key COMMA {
+    label:                              ','
+    base:                               ','
+    shift:                              '<'
+    ralt:                               '\u00AB'
+}
+key PERIOD {
+    label:                              '.'
+    base:                               '.'
+    shift:                              '>'
+    ralt:                               '\u00BB'
+}
+key LEFT_BRACKET {
+    label:                              '['
+    base:                               '['
+    shift:                              '{'
+    ralt:                               '\u201E'
+}
+key RIGHT_BRACKET {
+    label:                              ']'
+    base:                               ']'
+    shift:                              '}'
+    ralt:                               '\u201D'
+}
