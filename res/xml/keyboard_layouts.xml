@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
-     <keyboard-layout android:name="se_sv_dvorak"
-				 android:label="@string/se_sv_dvorak_label"
-             android:keyboardLayout="@raw/se_sv_dvorak" />
+     <keyboard-layout android:name="ro_ro_programmers"
+				 android:label="@string/ro_ro_programmers_label"
+             android:keyboardLayout="@raw/ro_ro_programmers" />
 </keyboard-layouts>

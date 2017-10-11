@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">se_sv_dvorak for android</string>
-		<string name="keyboard_layouts_label">se_sv_dvorak</string>
-		<string name="se_sv_dvorak_label">tlundqvist Dvorak (SE)</string>
+    <string name="app_name">Romanian (programmers) for Android</string>
+		<string name="keyboard_layouts_label">ro_ro_programmers</string>
+		<string name="se_sv_dvorak_label">miChou Romanian Programmers</string>
+		<string name="ro_ro_programmers_label">miChou Romanian Programmers</string>
 </resources>
