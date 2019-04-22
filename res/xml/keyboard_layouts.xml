@@ -3,4 +3,7 @@
      <keyboard-layout android:name="se_sv_dvorak"
 				 android:label="@string/se_sv_dvorak_label"
              android:keyboardLayout="@raw/se_sv_dvorak" />
+     <keyboard-layout android:name="cz_necous"
+				 android:label="@string/cz_necous_label"
+             android:keyboardLayout="@raw/cz_necous" />
 </keyboard-layouts>

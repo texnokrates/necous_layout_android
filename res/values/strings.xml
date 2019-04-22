@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">se_sv_dvorak for android</string>
-		<string name="keyboard_layouts_label">se_sv_dvorak</string>
+    <string name="app_name">cz_necous and se_sv_dvorak for android</string>
+		<string name="keyboard_layouts_label_se_sv_dvorak">se_sv_dvorak</string>
+		<string name="keyboard_layouts_label_cz_necous">cz_necous</string>
 		<string name="se_sv_dvorak_label">tlundqvist Dvorak (SE)</string>
+		<string name="cz_necous_label">Nečousovo idylické rozložení (CZ)</string>
 </resources>
