@@ -1,0 +1,409 @@
+#
+# A better Czech keyboard layout (necous) by Marek Nečada
+#
+
+type OVERLAY
+
+map key 86 PLUS
+
+### ROW 1
+
+key GRAVE {
+    label:                              '-'
+    base:                               '-'
+    shift:                              '"'
+    ralt:                               '`'
+    shift+ralt:                         '~'
+}
+
+key 1 {
+    label:                              '<'
+    base:                               '<'
+    shift:                              '1'
+    ralt:                               '!'
+    shift+ralt:                         '\u0303' # dead tilde
+}
+
+key 2 {
+    label:                              '>'
+    base:                               '>'
+    capslock:                           '>'
+    shift:                              '2'
+    ralt:                               '@'
+    shift+ralt:                         '\u030c' # dead háček (duplicita!)
+}
+
+key 3 {
+    label:                              '='
+    base:                               '='
+    capslock:                           '='
+    shift:                              '3'
+    ralt:                               '#'
+    shift+ralt:                         '\u0302' # dead circumflex
+}
+
+key 4 {
+    label:                              '´'
+    base:                               '\u0301' # dead acute
+    capslock:                           '\u0301'
+    shift:                              '4'
+    ralt:                               '$'
+    shift+ralt:                         '\u0306' # dead breve
+}
+
+key 5 {
+    label:                              'ˇ'
+    base:                               '\u030c' # dead háček
+    capslock:                           '\u030c' # dead háček
+    shift:                              '5'
+    ralt:                               '%'
+    shift+ralt:                         '\u030a' # dead ring
+}
+
+key 6 {
+    label:                              'g'
+    base:                               'g'
+    capslock:                           'G'
+    shift:                              '6'
+    ralt:                               '^'
+    shift+ralt:                         '\u0328' # dead ohonek
+}
+
+key 7 {
+    label:                              'x'
+    base:                               'x'
+    capslock:                           'X'
+    shift:                              '7'
+    ralt:                               '&'
+    shift+ralt:                         '\u0300' # dead grave
+}
+
+key 8 {
+    label:                              'š'
+    base:                               'š'
+    capslock:                           'Š'
+    shift:                              '8'
+    ralt:                               '*'
+    shift+ralt:                         '\u0307' # dead dot above
+}
+
+key 9 {
+    label:                              'ž'
+    base:                               'ž'
+    capslock:                           'Ž'
+    shift:                              '9'
+    ralt:                               '{' # (duplicita!)
+    shift+ralt:                         '\u0301' # dead acute (duplicita!)
+}
+
+key 0 {
+    label:                              'č'
+    base:                               'č'
+    capslock:                           'Č'
+    shift:                              '0'
+    ralt:                               '}' # (duplicita!)
+    shift+ralt:                         '\u030B' # double acute
+}
+
+key MINUS {
+    label:                              'w'
+    base:                               'w'
+    shift:                              'W'
+    capslock:                           'W'
+    ralt:                               '\\' # (duplicita!)
+    ralt+shift:                         '\u0308' # dead umlaut
+}
+
+key EQUALS {
+    label:                              'q'
+    base:                               'q'
+    shift:                              'Q'
+    ralt:                               '\u0304' # dead macron
+    ralt+shift:                         '\u0327' # dead cedilla
+}
+
+### ROW 2
+
+key Q {
+    label:                              'é'
+    base:                               'é'
+    shift:                              '{'
+    capslock:                           'É'
+    ralt:                               '\\' # (duplicita!)
+    ralt+shift:                         'Ω'  # Probably not that necessary
+}
+
+key W {
+    label:                              'ě'
+    base:                               'ě'
+    shift:                              '}'
+    capslock:                           'Ě'
+    ralt:                               '|' # (duplicita?)
+#    ralt+shift: none here
+}
+
+key E {
+    label:                              'í'
+    base:                               'í'
+    shift:                              '('
+    capslock:                           'Í'
+    ralt:                               '€'
+}
+
+key R {
+    label:                              'á'
+    base:                               'á'
+    shift:                              ')'
+    capslock:                           'Á'
+}
+
+key T {
+    label:                              'y'
+    base:                               'y'
+    shift:                              'Y'
+    capslock:                           'Y'
+}
+
+key Y {
+    label:                              'p'
+    base:                               'p'
+    shift:                              'P'
+    capslock:                           'P'
+}
+
+key U {
+    label:                              'p'
+    base:                               'p'
+    shift, capslock:                    'P'
+}
+
+key I {
+    label:                              'k'
+    base:                               'k'
+    shift, capslock:                    'K'
+}
+
+key O {
+    label:                              'd'
+    base:                               'd'
+    shift, capslock:                    'D'
+}
+
+key P {
+    label:                              'r'
+    base:                               'r'
+    shift, capslock:                    'R'
+}
+
+key LEFT_BRACKET {
+    label:                              'ř'
+    base:                               'ř'
+    capslock:                           'Ř'
+    shift:                              'Ř'
+    ralt:                               '['
+    ralt+shift:                         '÷'
+}
+
+key RIGHT_BRACKET {
+    label:                              ';'
+    base:                               ';'
+    shift:                              ':'
+    ralt:                               ']'
+    ralt+shift:                         '×'
+}
+
+# TODO BACKSLASH???
+
+### ROW 3
+
+key A {
+    label:                              'i'
+    base:                               'i'
+    shift, capslock:                    'I'
+    ralt:                               '~' # 'asciitilde' in the xkb file. Is it any different?
+}
+
+key S {
+    label:                              'e'
+    base:                               'e'
+    shift, capslock:                    'E'
+    ralt:                               'ë'
+    ralt+shift:                         'Ë'
+}
+
+key D {
+    label:                              'o'
+    base:                               'o'
+    shift, capslock:                    'O'
+    ralt:                               'ö'
+    ralt+shift:                         'Ö'
+}
+
+key F {
+    label:                              'a'
+    base:                               'a'
+    shift, capslock:                    'A'
+    ralt:                               'ä'
+    ralt+shift:                         'Ä'
+}
+
+key G {
+    label:                              'u'
+    base:                               'u'
+    shift, capslock:                    'U'
+    ralt:                               'ü'
+    ralt+shift:                         'Ü'
+}
+
+key H {
+    label:                              'v'
+    base:                               'v'
+    shift, capslock:                    'V'
+    ralt:                               '`'
+}
+
+key J {
+    label:                              'n'
+    base:                               'n'
+    shift, capslock:                    'N'
+    ralt:                               '\'' # (duplicita!)
+    ralt+shift:                         '„'
+}
+
+key K {
+    label:                              't'
+    base:                               't'
+    shift, capslock:                    'T'
+    ralt:                               'ł' # duplicita, quite pointless!
+    ralt+shift:                         '“'
+}
+
+key L {
+    label:                              's'
+    base:                               's'
+    shift, capslock:                    'S'
+    ralt:                               'ł'
+    ralt+shift:                         'Ł' # Bit different than xkb!, use this in xkb revision!
+}
+
+key SEMICOLON {
+    label:                              'l'
+    base:                               'l'
+    shift, capslock:                    'L'
+    ralt:                               '$'
+}
+
+key APOSTROPHE {
+    label:                              'h'
+    base:                               'h'
+    shift, capslock:                    'H'
+    ralt:                               '\'' # duplicita s key BACKSLASH
+    ralt+shift:                         'ß'
+}
+
+key BACKSLASH {
+    label:                              '/'
+    base:                               '/'
+    shift:                              '\''
+    ralt:                               '\\'
+    ralt+shift:                         '|'
+}
+
+### ROW 4
+
+key PLUS { # TODO, what is dis?
+    label:                              '\\'
+    base:                               '\\'
+    shift:                              '|'
+    ralt:                               '/'
+    shift+ralt:                         '\u02dd' #??
+}
+
+key Z {
+    label:                              'ý'
+    base:                               'ý'
+    shift:                              '['
+    capslock:                           'Ý'
+    ralt:                               '°'
+    shift+ralt:                         '<' # duplicita!
+}
+
+key X {
+    label:                              'ů'
+    base:                               'ů'
+    shift:                              ']'
+    capslock:                           'Ů'
+    ralt:                               '&' # duplicita
+    ralt+shift:                         '+' # duplicita s key C
+}
+
+key C {
+    label:                              'ú'
+    base:                               'ú'
+    shift, capslock:                    'Ú'
+    ralt:                               '_'
+    ralt+shift:                         '+'
+}
+
+key V {
+    label:                              ','
+    base:                               ','
+    shift:                              '?',
+    ralt:                               '@'
+    ralt+shift:                         '‘'
+}
+
+key B {
+    label:                              '.'
+    base:                               '.'
+    shift, capslock:                    '!'
+    ralt:                               '{' # duplicita!
+    ralt+shift:                         '’'
+}
+
+key N {
+    label:                              'z'
+    base:                               'z'
+    shift, capslock:                    'Z'
+    ralt:                               '}' # duplicita!
+    ralt+shift:                         '–'
+}
+
+key M {
+    label:                              'j'
+    base:                               'j'
+    shift, capslock:                    'J'
+    ralt:                               '^' # duplicita!
+    ralt+shift:                         '—'
+}
+
+key COMMA {
+    label:                              'b'
+    base:                               'b'
+    shift, capslock:                    'B'
+    ralt:                               '<'
+    shift+ralt:                         '×' # duplicita!
+}
+
+key PERIOD {
+    label:                              'c'
+    base:                               'c'
+    shift, capslock:                    'C'
+    ralt:                               '>'
+}
+
+key SLASH {
+    label:                              'f'
+    base:                               'f'
+    shift, capslock:                    'F'
+    ralt:                               '*' # duplicita
+}
+
+key SPACE {
+    label:                              ' '
+    base:                               ' '
+    ralt:                               ' ' # nobreakspace
+    alt, meta:                          fallback SEARCH
+    ctrl:                               fallback LANGUAGE_SWITCH
+}
+
