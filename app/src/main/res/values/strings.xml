@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">RO-RO (Programmers)</string>
+    <string name="app_name">cz necous + ro ro (programmers)</string>
     <string name="keyboard_layouts_label">Custom keyboard</string>
     <string name="ro_ro_programmers_label">Romanian (Programmers)</string>
+    <string name="cz_necous_label">Czech (Nečousovo idylické rozložení)</string>
+    <string name="cz_necous_light_label">Czech (Nečous light)</string>
+    <string name="se_sv_dvorak_label">Swedish (tlundquist)</string>
     <integer name="google_play_services_version">44</integer>
 </resources>

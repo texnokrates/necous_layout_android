@@ -3,4 +3,13 @@
      <keyboard-layout android:name="ro_ro_programmers"
 				 android:label="@string/ro_ro_programmers_label"
              android:keyboardLayout="@raw/ro_ro_programmers" />
+    <keyboard-layout android:name="cz_necous"
+        android:label="@string/cz_necous_label"
+        android:keyboardLayout="@raw/cz_necous" />
+    <keyboard-layout android:name="cz_necous_light"
+        android:label="@string/cz_necous_light_label"
+        android:keyboardLayout="@raw/cz_necous_light" />
+    <keyboard-layout android:name="se_sv_dvorak"
+        android:label="@string/se_sv_dvorak_label"
+        android:keyboardLayout="@raw/se_sv_dvorak" />
 </keyboard-layouts>
